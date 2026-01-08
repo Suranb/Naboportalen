@@ -1,6 +1,15 @@
 @Naboportalen.Api_HostAddress = http://localhost:5068
 
-GET {{Naboportalen.Api_HostAddress}}/weatherforecast/
-Accept: application/json
+###
+POST {{Naboportalen.Api_HostAddress}}/api/neighborhoods/
+Content-Type: application/json
+ 
+{
+    "name": "Hotvetveien 37 Vel",
+    "description": "Vel for Hotvetveien 37"
+}
+
 
 ###
+GET {{Naboportalen.Api_HostAddress}}/api/neighborhoods
+Accept: application/json
