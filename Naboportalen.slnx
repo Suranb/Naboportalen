@@ -1,0 +1,13 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/src/">
+    <Project Path="src/Naboportalen.Api/Naboportalen.Api.csproj" />
+    <Project Path="src/Naboportalen.Application/Naboportalen.Application.csproj" />
+    <Project Path="src/Naboportalen.Domain/Naboportalen.Domain.csproj" />
+    <Project Path="src/Naboportalen.Infrastructure/Naboportalen.Infrastructure.csproj" />
+  </Folder>
+</Solution>
