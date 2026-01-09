@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Naboportalen.Infrastructure.Migrations
 {
     [DbContext(typeof(NaboportalenDbContext))]
-    [Migration("20260108202429_initialMigration")]
-    partial class initialMigration
+    [Migration("20260109073441_initalMigration")]
+    partial class initalMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

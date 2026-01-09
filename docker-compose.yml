@@ -3,7 +3,7 @@
     image: postgres:17
     container_name: Naboportalen_postgres
     environment:
-      POSTGRES_USER: suran
+      POSTGRES_USER: user
       POSTGRES_PASSWORD: secret
       POSTGRES_DB: Naboportalen
     ports:
