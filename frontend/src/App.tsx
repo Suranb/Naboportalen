@@ -3,13 +3,13 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
-  const naboportalenApiUrl = "http://localhost:5068";
-  const neighborhoods = () => {
-    fetch(`${naboportalenApiUrl}/api/neighbourhoods`)
-      .then((response) => response.json())
-      .then((data) => console.log(data));
-  };
-  neighborhoods();
+  // const naboportalenApiUrl = "http://localhost:5068";
+  // const neighborhoods = () => {
+  //   fetch(`${naboportalenApiUrl}/api/neighbourhoods`)
+  //     .then((response) => response.json())
+  //     .then((data) => console.log(data));
+  // };
+  // neighborhoods();
 
   return (
     <>
